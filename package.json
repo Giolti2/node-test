@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testing node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giolti2/node-test.git"
+  },
+  "author": "Elisa De Benedettis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giolti2/node-test/issues"
+  },
+  "homepage": "https://github.com/Giolti2/node-test#readme"
+}
