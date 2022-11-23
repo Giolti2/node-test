@@ -18,5 +18,11 @@ console.log("running server on http://localhost:" + port)
 
 function newConnection(newSocket) {
     console.log(newSocket.id)
+
+    newSocket.on("mouse", mouseReceived)
+}
+
+function mouseReceived(data) {
+    io.emit("mouseBroadcast", data)
 }
 
